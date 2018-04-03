@@ -124,6 +124,6 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-	arr = programmer_hash[:dennis_ritchie][:languages].push "Assembly"
+	arr = programmer_hash[:dennis_ritchie][:languages].push("Assembly")
 	return arr
 end
